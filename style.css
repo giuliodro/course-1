@@ -19,6 +19,18 @@ body {
   margin-bottom: 60px;
   height: 80px;
 }
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-right: 0;
+}
 .post-headder {
   margin-bottom: 40px;
 }
@@ -139,8 +151,8 @@ a:active {
 }
 .container {
   width: 700px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* margin: auto, auto; */
 }
 /* Resolving conflicts
